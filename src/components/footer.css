@@ -1,0 +1,23 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333; /* Or any color you'd prefer */
+    color: white; /* Text color */
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* To vertically center the items in the footer */
+    z-index: 1000; /* This ensures the footer is always on top */
+}
+
+.footer a, .footer p {
+    margin: 0; /* Remove default margins */
+    color: white; /* This will make the email link white. Adjust if necessary */
+    text-decoration: none; /* This will remove underlines from links */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Optional: underline the link on hover */
+}

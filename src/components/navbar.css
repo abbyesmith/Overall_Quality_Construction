@@ -1,0 +1,41 @@
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #333;
+} */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh; /* make it 10% of the viewport height */
+    display: flex;
+    align-items: center; /* to vertically center the items */
+    justify-content: space-between;
+    padding: 0 50px; /* adjust as needed */
+    background-color: #333;
+    z-index: 1000; /* ensure it stays on top of other content */
+}
+.navbar button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbar button:hover {
+    background-color: #777;
+}
+
+.navbar-logo {
+    height: 70%; /* adjust this value as needed */
+    width: auto; /* maintain the logo's aspect ratio */
+}
+
+body > .App > *:not(.navbar):first-child {
+    padding-top: 10vh; /* should match the navbar height */
+}

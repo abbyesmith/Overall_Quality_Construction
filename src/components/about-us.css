@@ -1,0 +1,76 @@
+.about{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.about-image {
+    max-width: 40%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    flex: 1;
+}
+
+/* .social-links {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+} */
+
+.social-links {
+    text-align: center;  /* Centers the inline elements (like your anchor tags) horizontally */
+    display: flex;       /* Makes the container a flexbox container */
+    justify-content: center; /* Centers the flex items horizontally */
+    flex-wrap: wrap;     /* Allows the flex items to wrap to the next line if there's not enough space */
+    gap: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0077cc;
+}
+
+.social-button {
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.social-button:hover {
+    background-color: #ddd;
+}
+
+.social-button .fa-facebook-f {
+    color: #3b5998;
+    margin-right: 5px;
+}
+
+.social-button .fa-yelp {
+    color: #d32323;
+    margin-right: 5px;
+}
+
+.social-button .fa-twitter {
+    color: #1da1f2;
+    margin-right: 5px;
+}

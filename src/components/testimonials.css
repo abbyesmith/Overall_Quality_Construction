@@ -1,0 +1,50 @@
+.testimonials{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.testimonials-container {
+    position: relative;
+    width: 100%;
+}
+
+.carousel {
+    position: relative;
+}
+
+.project-image {
+    /* width: 100%; */
+    height: 50vh; /* 50% of the viewport height */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.customer-feedback {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.customer-image {
+    width: 50px; /* Adjust as needed */
+    height: 50px;
+    border-radius: 50%; /* Makes the image round */
+    margin-right: 20px;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+.quote-mark {
+    font-size: 2em; /* Adjust size as needed */
+    font-weight: bold;
+}
+
+/* Styling for "Previous" and "Next" buttons - add as desired */
+
+.see-all {
+    display: block;
+    margin: 20px auto;
+}
